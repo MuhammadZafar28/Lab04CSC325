@@ -12,9 +12,7 @@ public class Intern extends StaffMember
     //-----------------------------------------------------------------
     public Intern(String eName, String eAddress, String ePhone)
     {
-        name = eName;
-        address = eAddress;
-        phone = ePhone;
+        super(eName, eAddress, ePhone);
     }
 
     //-----------------------------------------------------------------
